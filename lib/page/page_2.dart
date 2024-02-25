@@ -8,10 +8,12 @@ class PersonalInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(30)),
+        Container(
+          decoration: BoxDecoration(
+              color: Color.fromRGBO(61, 63, 84, 1),
+              borderRadius: BorderRadius.circular(30)),
           height: MediaQuery.of(context).size.height * 0.20,
           width: MediaQuery.of(context).size.width * 0.9,
-          color: Color.fromRGBO(61, 63, 84, 1),
           child: Padding(
             padding: const EdgeInsets.all(16.0),
             child:
@@ -51,11 +53,16 @@ class PersonalInfo extends StatelessWidget {
                   height: 2),
             ]),
           ),
-        ),SizedBox(height: 20,),
-        Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(30)),
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        Container(
+          decoration: BoxDecoration(
+              color: Color.fromRGBO(61, 63, 84, 1),
+              borderRadius: BorderRadius.circular(30)),
           height: MediaQuery.of(context).size.height * 0.3,
           width: MediaQuery.of(context).size.width * 0.9,
-          color: Color.fromRGBO(61, 63, 84, 1),
           child: Padding(
             padding: const EdgeInsets.all(16.0),
             child:
@@ -123,7 +130,8 @@ class PersonalInfo extends StatelessWidget {
                     width: 10,
                   ),
                   customText(
-                    text: "Street 2, house #05, Motarway Route Road Islamabad, Pakistan",
+                    text:
+                        "Street 2, house #05, Motarway Route Road Islamabad, Pakistan",
                     color: Color.fromRGBO(217, 217, 217, 1),
                     weight: FontWeight.w400,
                     size: 10,
