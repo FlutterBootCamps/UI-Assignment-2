@@ -2,13 +2,19 @@
 ## Description
 The goal of this project is to recreate the user interface design from the Figma link using Flutter widgets and UI packages.
 <br></br>
-## Figma Design
-UI Design: [Figma link](https://www.figma.com/file/9YbDGwv7odBuIGQlel6wRg/Day-6-User-profile-page-Ui-design-challenge-(Community)?type=design&node-id=0%3A1&mode=design&t=Oke4FSFZdtHv6723-1)
+## Design
+![Screenshot 2024-02-25 224946](https://github.com/Saadxf/UI-Assignment-2/assets/123157306/aa5a98da-fc1c-41a2-b10d-6bad456067ab)
+![Screenshot 2024-02-25 225016](https://github.com/Saadxf/UI-Assignment-2/assets/123157306/6bdb8a07-8bee-47a7-a5bf-97ac2c04322f)
+![Screenshot 2024-02-25 225006](https://github.com/Saadxf/UI-Assignment-2/assets/123157306/bf63e729-1565-4024-a360-1ca0e8cf42e0)
+![Screenshot 2024-02-25 225029](https://github.com/Saadxf/UI-Assignment-2/assets/123157306/80418a8d-a15f-4a4c-82f4-52ebd5604c9a)
+
+
+
 
 <br></br>
 ## Helpful UI Packages
-Consider utilizing the following packages to assist you in completing this task:
-- [Resource 1](https://fluttergems.dev/stepper/)
-- [Resource 2](https://pub.dev/packages/timeline_tile)
-- [Resource 3](https://pub.dev/packages/easy_stepper)
-- [Resource 4](https://pub.dev/packages/order_tracker)
+  flutter_svg: ^2.0.10+1
+  
+  easy_stepper: ^0.8.3
+
+  ![image](https://github.com/Saadxf/UI-Assignment-2/assets/123157306/815d3240-0127-4380-a058-d6234e90b112)
