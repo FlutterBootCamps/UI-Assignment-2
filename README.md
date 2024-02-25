@@ -1,14 +1,17 @@
-# Flutter UI Implementation
-## Description
-The goal of this project is to recreate the user interface design from the Figma link using Flutter widgets and UI packages.
-<br></br>
-## Figma Design
-UI Design: [Figma link](https://www.figma.com/file/9YbDGwv7odBuIGQlel6wRg/Day-6-User-profile-page-Ui-design-challenge-(Community)?type=design&node-id=0%3A1&mode=design&t=Oke4FSFZdtHv6723-1)
+# Flutter UI Implementation 2
 
-<br></br>
-## Helpful UI Packages
-Consider utilizing the following packages to assist you in completing this task:
-- [Resource 1](https://fluttergems.dev/stepper/)
-- [Resource 2](https://pub.dev/packages/timeline_tile)
-- [Resource 3](https://pub.dev/packages/easy_stepper)
-- [Resource 4](https://pub.dev/packages/order_tracker)
+
+## personal info page
+
+
+
+<img src="https://github.com/ohob745/UI-Assignment-2/assets/110139139/53b6bde3-c9c1-4b2b-98a3-453d8baa851a" alt="personal info page" width="200" height="300">
+
+
+
+## experience
+
+
+
+<img src="https://github.com/ohob745/UI-Assignment-2/assets/110139139/cd15df61-6619-408c-84fc-afef5bd32069" alt="experience" width="200" height="300">
+
