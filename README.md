@@ -1,14 +1,16 @@
-# Flutter UI Implementation
-## Description
-The goal of this project is to recreate the user interface design from the Figma link using Flutter widgets and UI packages.
-<br></br>
-## Figma Design
-UI Design: [Figma link](https://www.figma.com/file/9YbDGwv7odBuIGQlel6wRg/Day-6-User-profile-page-Ui-design-challenge-(Community)?type=design&node-id=0%3A1&mode=design&t=Oke4FSFZdtHv6723-1)
+# hw10
 
-<br></br>
-## Helpful UI Packages
-Consider utilizing the following packages to assist you in completing this task:
-- [Resource 1](https://fluttergems.dev/stepper/)
-- [Resource 2](https://pub.dev/packages/timeline_tile)
-- [Resource 3](https://pub.dev/packages/easy_stepper)
-- [Resource 4](https://pub.dev/packages/order_tracker)
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
