@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ui_assignment_2/pages/experience.dart';
 import 'package:ui_assignment_2/pages/personal_info_page.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ExperiencePage(),
+      home: PersonalInfoPage(),
       debugShowCheckedModeBanner: false,
     );
   }

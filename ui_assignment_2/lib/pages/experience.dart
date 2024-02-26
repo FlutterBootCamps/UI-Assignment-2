@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:timeline_tile/timeline_tile.dart';
 import 'package:ui_assignment_2/helper/extintion.dart';
-import 'package:ui_assignment_2/widgets/contact_widget.dart';
 import 'package:ui_assignment_2/widgets/time_line_widget.dart';
 
 class ExperiencePage extends StatelessWidget {
@@ -50,17 +48,22 @@ class ExperiencePage extends StatelessWidget {
           ),
           Image.asset("assets/icons.png"),
           const SizedBox(
-            height: 40,
+            height: 30,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                "Personal Info",
-                style: GoogleFonts.inter(
-                    color: const Color.fromARGB(255, 245, 245, 245),
-                    fontSize: 10,
-                    fontWeight: FontWeight.w400),
+              InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "Personal Info",
+                  style: GoogleFonts.inter(
+                      color: const Color.fromARGB(255, 245, 245, 245),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w400),
+                ),
               ),
               SizedBox(
                 width: context.getWidth() / 12,
@@ -109,11 +112,11 @@ class ExperiencePage extends StatelessWidget {
             ],
           ),
           const SizedBox(
-            height: 20,
+            height: 10,
           ),
           Container(
             padding: const EdgeInsets.all(30),
-            height: context.getHeight() / 2,
+            height: context.getHeight() / 1.8,
             width: context.getWidth() * 0.80,
             decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 61, 63, 84),
@@ -146,22 +149,36 @@ class ExperiencePage extends StatelessWidget {
                     ],
                   ),
                 ),
-                // const SizedBox(
-                //   height: 20,
-                // ),
-                TimelineTile(
-                  alignment: TimelineAlign.start,
+                const TimeLine(
                   isFirst: true,
-                  endChild: const TimeLineChild(
-                    title: "UX Designer",
-                    supTitle: "@uiux_agency | 2020-2023",
-                  ),
-                )
+                  title: "UX Designer",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
+                const TimeLine(
+                  title: "Graphic Designer",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
+                const TimeLine(
+                  title: "Marketing Manager",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
+                const TimeLine(
+                  title: "Maths Tutor",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
+                const TimeLine(
+                  title: "Business Manager",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
+                const TimeLine(
+                  title: "UX Designer",
+                  subtitle: "@uiux_agency | 2020-2023",
+                ),
               ],
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Container(
             height: context.getHeight() / 15,

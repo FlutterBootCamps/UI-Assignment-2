@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ui_assignment_2/helper/extintion.dart';
+import 'package:ui_assignment_2/pages/experience.dart';
 import 'package:ui_assignment_2/widgets/contact_widget.dart';
 
 class PersonalInfoPage extends StatelessWidget {
@@ -77,12 +78,17 @@ class PersonalInfoPage extends StatelessWidget {
               SizedBox(
                 width: context.getWidth() / 12,
               ),
-              Text(
-                "Experience",
-                style: GoogleFonts.inter(
-                    color: const Color.fromARGB(255, 245, 245, 245),
-                    fontSize: 10,
-                    fontWeight: FontWeight.w400),
+              InkWell(
+                onTap: () {
+                  context.pushTo(view: const ExperiencePage());
+                },
+                child: Text(
+                  "Experience",
+                  style: GoogleFonts.inter(
+                      color: const Color.fromARGB(255, 245, 245, 245),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w400),
+                ),
               ),
               SizedBox(
                 width: context.getWidth() / 12,
@@ -107,11 +113,11 @@ class PersonalInfoPage extends StatelessWidget {
             ],
           ),
           const SizedBox(
-            height: 20,
+            height: 10,
           ),
           Container(
             padding: const EdgeInsets.all(30),
-            height: context.getHeight() / 4.5,
+            height: context.getHeight() / 4.2,
             width: context.getWidth() * 0.80,
             decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 61, 63, 84),
@@ -168,11 +174,11 @@ class PersonalInfoPage extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Container(
             padding: const EdgeInsets.all(30),
-            height: context.getHeight() / 3.5,
+            height: context.getHeight() / 3.3,
             width: context.getWidth() * 0.80,
             decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 61, 63, 84),
@@ -205,26 +211,30 @@ class PersonalInfoPage extends StatelessWidget {
                     ],
                   ),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 const Contact(
                   icon: Icons.call,
                   title: "+92 1234567890",
                 ),
-                
                 const Contact(
                   icon: Icons.email,
                   title: "ayeshabazmi@gmail.com",
                 ),
-                
                 const Contact(
                   icon: Icons.location_pin,
                   title:
                       "Street 2, house #05, Motarway Route Road Islamabad, Pakistan",
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
               ],
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Container(
             height: context.getHeight() / 15,
@@ -247,5 +257,3 @@ class PersonalInfoPage extends StatelessWidget {
     );
   }
 }
-
-
