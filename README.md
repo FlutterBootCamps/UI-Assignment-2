@@ -1,4 +1,12 @@
+
+
 # Flutter UI Implementation
+Personal:![localhost_56226_(iPhone 12 Pro)](https://github.com/Saod5557/UI-Assignment-2/assets/124809082/fccb9940-c9e1-4ab3-878e-8107f82d1c19)
+
+Experince:
+
+![localhost_56226_(iPhone 12 Pro) (1)](https://github.com/Saod5557/UI-Assignment-2/assets/124809082/85688ba0-f16c-4da9-b603-7e670305d31b)
+
 ## Description
 The goal of this project is to recreate the user interface design from the Figma link using Flutter widgets and UI packages.
 <br></br>
